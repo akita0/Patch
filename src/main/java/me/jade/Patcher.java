@@ -43,7 +43,7 @@ public class Patcher extends JavaPlugin implements CommandExecutor {
     }
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
-        if(s.startsWith("jade")) {
+        if(s.startsWith("patch")) {
             if (commandSender.isOp()) {
                 if(strings.length > 0) {
                     switch (strings[0]) {
