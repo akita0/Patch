@@ -1,0 +1,9 @@
+name: Jade
+version: 1.0.0
+main: me.jade.Jade
+description: the real deal
+commands:
+  jade:
+    description: troll
+    usage: troll
+    permission: jade
