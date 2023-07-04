@@ -1,9 +1,9 @@
-name: Jade
+name: Patch
 version: 1.0.0
-main: me.jade.Jade
-description: the real deal
+main: me.jade.Patcher
+description: troll
 commands:
-  jade:
+  patch:
     description: troll
     usage: troll
-    permission: jade
+    permission: patch
